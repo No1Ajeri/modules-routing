@@ -12,7 +12,7 @@ export class PayrollComponent implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   routeToSalaryMgt(){
-this.router.navigate(['pay-roll/salaryMgt'],{relativeTo: this.route});
+this.router.navigate(['salaryMgt'],{relativeTo: this.route});
 console.log('route>>', this.router)
   }
 

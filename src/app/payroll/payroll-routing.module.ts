@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'pay-roll', component: PayrollComponent,
 children: [
   { path: '', component: PayrollComponent, pathMatch:'full'},
-  {path: 'pay-roll/salaryMgt', component: SalaryManagementComponent}
+  {path: 'salaryMgt', component: SalaryManagementComponent}
 ]
 },
 ];

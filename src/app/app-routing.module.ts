@@ -15,3 +15,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
+//Home Address, Phone Number, Acct Number, Account Name, Bank Name
